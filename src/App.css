@@ -1,0 +1,177 @@
+/* Estilo geral do corpo da página */
+body {
+  margin: 0; /* Remove a margem padrão do body */
+  font-family: 'Arial', sans-serif; /* Define a fonte padrão */
+  background-color: #fefefe; /* Cor de fundo da página */
+  color: #5f4b8b; /* Cor do texto padrão */
+}
+
+/* Estilo do cabeçalho */
+.header {
+  position: sticky; /* Torna o cabeçalho fixo no topo da página durante o rolar */
+  top: 0; /* Define a posição do cabeçalho no topo */
+  background-color: #fff; /* Cor de fundo do cabeçalho */
+  z-index: 1000; /* Garante que o cabeçalho esteja acima de outros elementos */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil abaixo do cabeçalho */
+  padding: 15px 20px; /* Espaçamento interno (padding) do cabeçalho */
+  display: flex; /* Alinha os itens horizontalmente */
+  align-items: center; /* Alinha verticalmente ao centro */
+}
+
+/* Estilo do logo */
+.logo {
+  margin-right: 50px; /* Espaçamento à direita do logo */
+  margin-left: 50px; /* Ajuste o espaçamento à esquerda do logo conforme necessário */
+}
+
+/* Estilo da imagem do logo */
+.logo img {
+  height: 100px; /* Altura da imagem do logo */
+  width: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo da área de navegação */
+.nav {
+  display: flex; /* Alinha os itens horizontalmente */
+  align-items: center; /* Alinha verticalmente ao centro */
+  flex-grow: 4; /* Faz com que a navegação ocupe o espaço restante */
+}
+
+/* Estilo da lista de navegação */
+.nav ul {
+  list-style: none; /* Remove os marcadores da lista */
+  display: flex; /* Alinha os itens da lista horizontalmente */
+  padding: 0; /* Remove o padding padrão */
+  margin: 0; /* Remove a margem padrão */
+}
+
+/* Estilo de cada item da lista de navegação */
+.nav li {
+  margin-right: 20px; /* Espaçamento à direita de cada item da lista */
+}
+
+/* Estilo dos links de navegação */
+.nav a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  color: #f1c40f; /* Cor do texto dos links */
+  /*font-weight: ; /* Define o texto como negrito */
+  letter-spacing: 1px; /* Espaçamento entre as letras */
+  font-size: 14px; /* Ajuste o tamanho da fonte conforme necessário */
+  padding: 0 10px; /* Espaçamento interno (padding) para ajustar a proximidade com o logo */
+  line-height: 30px; /* Ajuste a altura da linha conforme necessário */
+}
+
+
+/* Estilo dos ícones de utilitário */
+.icons a {
+  color: #f1c40f; /* Cor dos ícones */
+  margin-left: 20px; /* Espaçamento à esquerda dos ícones */
+  font-size: 18px; /* Tamanho da fonte dos ícones */
+}
+
+/* Estilo da seção de boas-vindas */
+.welcome-section {
+  text-align: center; /* Alinha o texto ao centro */
+  padding: 40px; /* Espaçamento interno (padding) da seção */
+  background-color: #f9f4ff; /* Cor de fundo da seção */
+  margin-bottom: 40px; /* Espaçamento abaixo da seção */
+}
+
+/* Estilo do título da seção de boas-vindas */
+.welcome-section h2 {
+  font-size: 24px; /* Tamanho da fonte do título */
+  margin-bottom: 10px; /* Espaçamento abaixo do título */
+  color: #c77dfa; /* Cor do texto do título */
+}
+
+/* Estilo do parágrafo da seção de boas-vindas */
+.welcome-section p {
+  font-size: 18px; /* Tamanho da fonte do parágrafo */
+}
+
+/* Estilo da seção de destaques */
+.highlights {
+  text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Estilo do título da seção de destaques */
+.highlights h2 {
+  color: #c77dfa; /* Cor do texto do título */
+  margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+/* Estilo da área de produtos */
+.products {
+  display: flex; /* Alinha os itens horizontalmente */
+  justify-content: space-around; /* Distribui os itens com espaço igual ao redor */
+  padding: 0 20px; /* Espaçamento interno (padding) da área de produtos */
+}
+
+/* Estilo de cada produto */
+.product {
+  background-color: #fff; /* Cor de fundo do produto */
+  padding: 20px; /* Espaçamento interno (padding) do produto */
+  border-radius: 10px; /* Cantos arredondados */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra abaixo do produto */
+  width: 150px; /* Largura fixa do produto */
+  text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Estilo do desconto em cada produto */
+.discount {
+  background-color: #ff6f61; /* Cor de fundo do desconto */
+  color: white; /* Cor do texto do desconto */
+  padding: 5px; /* Espaçamento interno (padding) do desconto */
+  border-radius: 5px; /* Cantos arredondados do desconto */
+}
+
+/* Estilo do preço do produto */
+.price {
+  font-weight: bold; /* Define o texto como negrito */
+  color: #2ecc71; /* Cor do preço */
+}
+
+/* Estilo do preço antigo do produto */
+.old-price {
+  text-decoration: line-through; /* Linha atravessada no preço antigo */
+  color: #e74c3c; /* Cor do preço antigo */
+  margin-left: 5px; /* Espaçamento à esquerda do preço antigo */
+}
+
+/* Estilo da seção de categorias */
+.categories {
+  text-align: center; /* Alinha o texto ao centro */
+  padding: 40px 20px; /* Espaçamento interno (padding) da seção */
+}
+
+/* Estilo da lista de categorias */
+.category-list {
+  display: flex; /* Alinha os itens horizontalmente */
+  justify-content: space-around; /* Distribui os itens com espaço igual ao redor */
+}
+
+/* Estilo de cada categoria */
+.category {
+  background-color: #fff; /* Cor de fundo da categoria */
+  padding: 20px; /* Espaçamento interno (padding) da categoria */
+  border-radius: 10px; /* Cantos arredondados da categoria */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra abaixo da categoria */
+  width: 100px; /* Largura fixa da categoria */
+  text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Estilo do rodapé */
+.footer {
+  text-align: center; /* Alinha o texto ao centro */
+  padding: 20px; /* Espaçamento interno (padding) do rodapé */
+  background-color: #f9f4ff; /* Cor de fundo do rodapé */
+  color: #c77dfa; /* Cor do texto do rodapé */
+  font-size: 14px; /* Tamanho da fonte do rodapé */
+}
+
+/* Estilo dos links no rodapé */
+.footer a {
+  color: #7e57c2; /* Cor dos links */
+  text-decoration: underline; /* Sublinha os links */
+  margin: 0 5px; /* Espaçamento horizontal dos links */
+}
