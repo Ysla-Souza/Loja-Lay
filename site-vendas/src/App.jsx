@@ -7,7 +7,6 @@ import Register from './pages/Register';
 import Profile from './pages/Profile';
 import Products from './pages/Products'; // Certifique-se de usar o caminho correto
 import 'tailwindcss/tailwind.css'; // Importa o Tailwind CSS global
-import Navbar from './components/Navbar'; // Componente Navbar
 
 function App() {
   return (
